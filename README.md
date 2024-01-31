@@ -1,0 +1,4 @@
+# Pip Libraries
+
+- `numpy`
+- `nnfs`
