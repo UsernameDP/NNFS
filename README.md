@@ -72,6 +72,7 @@ $$
   - Turns the rawArray into an _numpy array_ you can use nupy methods on.
   - `npArray.shape` - return the dimensions (e.g (4,3), (1,2,3) ) of the tensor. `len(npArray.shape)` can give you the number of dimensions of the npArray.
   - `npArray1 * npArray2` - multiplys the elements of i1,j1, ... with i2,j1.
+  - `npArray.copy()` - deep copy of the npArray.
 - `np.dot(a1, a2)`
   -If matrix, treat this as matrix multiplication. Aka. consider transposition.
   -If vector, treat it as a dot product. Aka. no need to worry about transposition.
