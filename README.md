@@ -18,6 +18,7 @@
 - `Layer Outputs` - The number of layer outputs is equal to the number of neurons in that layer.
 - `Outputs` - The final outputs of the entire network.
 - `pred/prediction` - exact same as outputs, except used in the context of error.
+- `Gradient` - a vector that contains the partial derivatives of all inputs of the function.
 
 # Activation Functions
 
@@ -65,6 +66,8 @@ L_i = - \sum_{j} y_{i,j} \log(\hat{y}_{i,j})
 $$
 
 - The intution for this error is the following: The outputs of the neural network has a domain of [0,1]. The closer the neural network is to 1, the less loss there is. This makes sense, since $log(1) = 0$.
+
+# Backpropogation
 
 ## NUMPY
 
